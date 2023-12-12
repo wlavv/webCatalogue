@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/demo', function () { return view('demo'); })->name('demo');
+Route::get('/mindar', function () { return view('mindar'); })->name('mindar');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
