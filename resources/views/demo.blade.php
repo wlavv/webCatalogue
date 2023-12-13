@@ -222,9 +222,8 @@
     
 <div class="container"><div class="flex-center position-ref full-height">
          <div class="content">
-            <div class="title m-b-md">MindAR</div>
             <div class="links">
-               <div class="example-container">
+               <div class="example-container" style="display: contents">
                   <div id="example-scanning-overlay" class="hidden">
                      <div class="inner">
                         <img src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/card.png">
