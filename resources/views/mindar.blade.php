@@ -23,20 +23,20 @@
                   </div>
                   <a-scene mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/card.mind; showStats: false; uiScanning: #example-scanning-overlay;" embedded="" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" inspector="" keyboard-shortcuts="" screenshot="">
                      <a-assets>
-                        <img id="card" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/card.png">
-                        <img id="icon-web" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/icons/web.png">
-                        <img id="icon-location" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/icons/location.png">
-                        <img id="icon-profile" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/icons/profile.png">
-                        <img id="icon-phone" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/icons/phone.png">
-                        <img id="icon-email" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/icons/email.png">
-                        <img id="icon-play" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/icons/play.png">
-                        <img id="icon-left" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/icons/left.png">
-                        <img id="icon-right" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/icons/right.png">
-                        <img id="paintandquest-preview" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/portfolio/paintandquest-preview.png">
-                        <video id="paintandquest-video-mp4" autoplay="false" loop="true" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/portfolio/paintandquest.mp4" playsinline="" webkit-playsinline=""></video>
-                        <video id="paintandquest-video-webm" autoplay="false" loop="true" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/portfolio/paintandquest.webm" playsinline="" webkit-playsinline=""></video>
-                        <img id="coffeemachine-preview" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/portfolio/coffeemachine-preview.png">
-                        <img id="peak-preview" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/portfolio/peak-preview.png">
+                     <img id="card" src="/img/icons/card.png" />
+                    <img id="icon-web" src="/img/icons/web.png" />
+                    <img id="icon-location" src="/img/icons/location.png" />
+                    <img id="icon-profile" src="/img/icons/profile.png" />
+                    <img id="icon-phone" src="/img/icons/phone.png" />
+                    <img id="icon-email" src="/img/icons/email.png" />
+                    <img id="icon-play" src="/img/icons/play.png" />
+                    <img id="icon-left" src="/img/icons/left.png" />
+                    <img id="icon-right" src="/img/icons/right.png" />
+                    <img id="paintandquest-preview" src="/img/icons/paintandquest-preview.png" />
+                    <video id="paintandquest-video-mp4" autoplay="false" loop="true" src="/img/icons/paintandquest.mp4"></video>
+                    <video id="paintandquest-video-webm" autoplay="false" loop="true" src="/img/icons/paintandquest.webm"></video>
+                    <img id="coffeemachine-preview" src="/img/icons/coffeemachine-preview.png" />
+                    <img id="peak-preview" src="/img/icons/peak-preview.png" />
                         <a-asset-item id="avatarModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/examples/image-tracking/assets/card-example/softmind/scene.gltf"></a-asset-item>
                      </a-assets>
                      <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: 10000; objects: .clickable" camera="" rotation="" wasd-controls="">
