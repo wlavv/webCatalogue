@@ -17,8 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/demo', function () { return view('demo'); })->name('demo');
-Route::get('/mindar', function () { return view('mindar'); })->name('mindar');
+Route::get('/demo', function () {   return view('demo');   })->name('demo');
 
 Auth::routes();
 
